@@ -52,5 +52,19 @@ for i in range(0,9,3):
     pdf.set_font('times', '', 12)
     pdf.cell(0, 1, person['workexp'][i] + " | " + person['workexp'][i+1] + " | " + person['workexp'][i+2], ln=1)
 
+
+# education level      
+pdf.set_font('times', 'B', 14)
+pdf.cell(0, 1, 'Education:', ln=1)
+for i in range(0,6,3):
+    pdf.set_font('times', '', 12)
+    pdf.cell(0, 1, person['workexp'][i] + " | " + person['workexp'][i+1] + " | "  + person['workexp'][i+2], ln=1)
+
+# referral
+pdf.set_font('times', 'B', 14)
+pdf.cell(0, 1, 'Reference:', ln=1)
+pdf.set_font('times', '', 12)
+pdf.cell(0, 1, person['reference'])
+
 # make resume
 pdf.output('VIERNES_MICHAEL.pdf')
