@@ -1,0 +1,16 @@
+{
+	"name": "Michael E. Viernes",
+	"role": "Application Developer",
+	"desc": "My objective is to help the company with my dedication in developing a impactful application. I have a track of remarkable experience in leading a research and development team in a game in the past two years. Documentation is my valuable skill in detecting the bugs and errors, and even unit testing to ensure the quality of the user experience. I am actively collaborate and adapt to a team.",
+	"phone": "09091231234",
+	"email": "michaeleviernes@email.com",
+	"linkedin": "linkedin.com/michaeleviernes",
+	"relevancy": ["HTML5 & CSS3", "Java", "C#", "Python", "Unity", "AI", "Statistics"],
+	"workexp": [
+		"2018", "Student Assistant", "Sta. Anabella Junior High",
+		"2019", "Junior Programmer", "Sta. Anabella Junior High",
+		"2020", "Magazine Writer", "Sta. Anabella Junior High"
+	],
+	"education": {"Primary": "Cainta Catholic School (2006 - 2014)", "Secondary": "Sta. Anabella Junior High School (2014 - 2021)", "Tertiary": "UP Sta. Mesa (2021 - present)"},
+	"reference": "Mr. Leibnitz Maxwell"
+}
