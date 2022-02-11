@@ -37,5 +37,20 @@ pdf.cell(6,1, "E-mail: " + person['email'], ln=1)
 pdf.cell(0,1, "Linkedin: " + person['linkedin'], ln=1)
 
 
+#my relevant skills
+pdf.set_font('times', 'B', 14)
+pdf.cell(0, 1, 'Relevant Skils:', ln=1)
+pdf.set_font('times', '', 12)
+skills = ', '.join(person['relevancy'])
+pdf.cell(0, 1, skills, ln=1)
+
+
+# work exp
+pdf.set_font('times', 'B', 14)
+pdf.cell(0, 1, 'Experience:', ln=1)
+for i in range(0,9,3):
+    pdf.set_font('times', '', 12)
+    pdf.cell(0, 1, person['workexp'][i] + " | " + person['workexp'][i+1] + " | " + person['workexp'][i+2], ln=1)
+
 # make resume
 pdf.output('VIERNES_MICHAEL.pdf')
